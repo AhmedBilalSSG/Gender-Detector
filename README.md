@@ -15,7 +15,7 @@ The code includes a function called predict_gender, which takes a name as input.
 
 The user is prompted to enter a name, which is passed to the predict_gender function. The predicted gender is printed to the console.
 
-Finally, the trained model (classifier) is saved using joblib.dump, and the vocabulary of the vectorizer is saved as well.
+Finally, the trained model (classifier) is saved using joblib.dump, and the vocabulary of the vectorizer is saved as well. You can also use pickle to compress it would compress file size more as compared to joblib.
 
 This repository provides a complete example of gender detection using machine learning, allowing users to train their own model and predict the gender of given names.
 
