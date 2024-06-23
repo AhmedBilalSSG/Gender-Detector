@@ -18,5 +18,3 @@ The user is prompted to enter a name, which is passed to the predict_gender func
 Finally, the trained model (classifier) is saved using joblib.dump, and the vocabulary of the vectorizer is saved as well. You can also use pickle to compress it would compress file size more as compared to joblib.
 
 This repository provides a complete example of gender detection using machine learning, allowing users to train their own model and predict the gender of given names.
-
-![Screenshot (1)](https://github.com/AhmedBilalSSG/Gender-Detector/assets/110194946/4d51ff1e-41c3-4137-a95d-88a422a6bac1)
